@@ -1,0 +1,33 @@
+/*For extra-large screens an below*/
+
+@media only screen and (max-width: 1200px) {
+    .row, .text-box { 
+        width: 100%;
+        padding: 0 2%; }
+    }
+
+@media only screen and (max-width: 1023px) {
+    .footer-nav li a:link, .footer-nav li a:visited, .social-links li {
+        margin-right: 7px;
+        font-size: 80%;
+    }    
+}
+
+@media only screen and (max-width: 763px) {
+    body {
+        font-size: 17px;
+    }
+
+    .main-nav { 
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px; 
+        display: none; 
+    }
+
+    .main-nav li { display: block; }
+    
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+}
